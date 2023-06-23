@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 5px 0;
+}
+body {
+  background-color: rgb(31, 30, 30);
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+span {
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.weather__city {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.weather {
+  background-color: #b4e1f8;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.weather__header {
+  display: flex;
+  justify-content: space-between;
+}
